@@ -1,0 +1,79 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+body,
+html{
+    font-size: 18px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 24px;
+}
+a{
+    font-size: 14px;
+}
+
+/* header start */
+header{
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)), url("../images/header.jpg") no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.header-content{
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    text-align: center;
+}
+.header-text p{
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+.header-text p::after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #c59a6d;
+    margin: 30px auto;
+}
+.header-text h1{
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 30px 0;
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    letter-spacing: 0.1em;
+}
+nav.menu i{
+    position: absolute;
+    left: 50px;
+    top: 50px;
+    font-size: 20px;
+    color: #fff;
+    cursor: pointer;
+}
+.header-icon i{
+    font-size: 12px;
+    border: 1px solid #c59a6d;
+    padding: 4px 7px;
+    transition:.3s all;
+    cursor: pointer;
+}
+.header-icon i:hover{
+    background-color: #c59a6d;
+}
+/* header end */
