@@ -33,6 +33,7 @@ header{
     align-items: center;
     justify-content: center;
     background-attachment: fixed;
+    background-position: top;
 }
 .header-content{
     display: flex;
@@ -114,6 +115,7 @@ nav.menu i{
     justify-content: center;
     background-attachment: fixed;
 }
+
 .video i{
     font-size: 36px;
     color: #fff;
