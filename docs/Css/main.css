@@ -195,3 +195,29 @@ nav.menu i{
 }
 
 /* services end */
+
+/* Band start */
+#band{
+    height: 200px;
+    background-color: #282f35;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 90px;
+}
+.band a{
+    color: #fff;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px 80px;
+    border: 1px solid #c59a6d;
+    letter-spacing: 0.1rem;
+    transition: .2s all;
+}
+.band a:hover{
+    background-color: #c59a6d;
+    letter-spacing: 0.05rem;
+}
+/* Band end */
