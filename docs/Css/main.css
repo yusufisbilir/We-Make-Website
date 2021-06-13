@@ -32,6 +32,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-attachment: fixed;
 }
 .header-content{
     display: flex;
@@ -102,5 +103,24 @@ nav.menu i{
     margin: 0 auto;
     margin-bottom: 50px;
 }
-
 /* meet us end */
+
+/* video start */
+#video{
+    background:linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)), url("../images/video.jpg") no-repeat center;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-attachment: fixed;
+}
+.video i{
+    font-size: 36px;
+    color: #fff;
+    transition: .2s all;
+    cursor: pointer;
+}
+.video i:hover{
+    font-size: 48px;
+}
+/* video end */
