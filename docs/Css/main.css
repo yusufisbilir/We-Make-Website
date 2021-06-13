@@ -286,6 +286,33 @@ nav.menu i{
 }
 .more-behance a:hover{
     letter-spacing: 0.05rem;
-    
+
 }
 /* latest projects end */
+
+/* partners start */
+#partners{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("../images/partners.jpg") no-repeat center;
+    height: 500px;
+    padding: 90px 0;
+    margin-bottom: 90px;
+}
+#partners .title{
+    color: #fff;
+}
+.partners-items{
+    width: 750px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.partners-item{
+    opacity: 0.5;
+    transition: .3s all;
+    cursor: pointer;
+}
+.partners-item:hover{
+    opacity: 1;
+}
+/* partners end */
