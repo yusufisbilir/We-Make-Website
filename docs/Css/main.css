@@ -37,7 +37,7 @@ header{
     text-align: center;
 }
 .header-text p{
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 500;
     letter-spacing: 0.1em;
 }
@@ -50,7 +50,7 @@ header{
     margin: 30px auto;
 }
 .header-text h1{
-    font-size: 24px;
+    font-size: 48px;
     font-weight: 600;
     text-transform: uppercase;
     margin: 30px 0;
@@ -67,9 +67,9 @@ nav.menu i{
     cursor: pointer;
 }
 .header-icon i{
-    font-size: 12px;
+    font-size: 24px;
     border: 1px solid #c59a6d;
-    padding: 4px 7px;
+    padding: 4px 10px;
     transition:.3s all;
     cursor: pointer;
 }
