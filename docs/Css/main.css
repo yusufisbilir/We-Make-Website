@@ -49,7 +49,8 @@ header{
     line-height: 36px;
 }
 .header-text p::after, 
-.meet-text h2::after{
+.meet-text h2::after,
+.title h2::after{
     content: "";
     display: block;
     width: 30px;
@@ -127,3 +128,68 @@ nav.menu i{
     font-size: 48px;
 }
 /* video end */
+
+/* services start */
+#services{
+    padding: 90px 0;
+}
+.services{
+    width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.title{
+    width: 60%;
+    margin-bottom: 90px;
+}
+.title p{
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 36px;
+}
+.services-items{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.services-item{
+    width: 30%;
+    border: 1px solid #859297;
+    padding: 80px 15px;
+    transition: .3s all;
+}
+.services-item i{
+    font-size: 60px;
+    color: #859297;
+}
+.services-item h3{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 30px 0;
+    color: #859297;
+    letter-spacing: 0.05rem;
+}
+.services-item p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #859297;
+}
+.services-item:hover{
+    border: 2px solid #c59a6d;
+    padding: 110px 10px;
+    
+}
+.services-item:hover i ,
+.services-item:hover h3{
+    color: #c59a6d;
+}
+.services-item:hover p{
+    color: #000;
+}
+
+/* services end */
