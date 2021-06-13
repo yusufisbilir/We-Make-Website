@@ -221,3 +221,71 @@ nav.menu i{
     letter-spacing: 0.05rem;
 }
 /* Band end */
+
+/* latest projects start */
+#latest-project{
+    margin-bottom: 90px;
+}
+.latest-project-items{
+    display: flex;
+}
+.latest-project-item{
+    width: 20%;
+    height: 360px;
+    overflow: hidden;
+    position: relative;
+}
+.overlay{
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #282f35;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: .4s all;
+}
+.overlay-text p{
+    color: #fff;
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 500;
+    text-align: center;
+}
+.overlay-text span{
+    display: block;
+    font-size: 28px;
+    color: #c59a6d;
+}
+.overlay-text p::after{
+    content: "";
+    display: block;
+    width: 30px;
+    height: 2px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+.latest-project-item:hover .overlay{
+    top: 0;
+}
+.more-behance a{
+    text-decoration: none;
+    display: block;
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #fff;
+    background-color: #c59a6d;
+    padding: 20px 80px;
+    letter-spacing: 0.1rem;
+    transition: .3s all;
+    margin: 90px 0;
+}
+.more-behance a:hover{
+    letter-spacing: 0.05rem;
+    
+}
+/* latest projects end */
