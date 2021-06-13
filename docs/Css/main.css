@@ -155,6 +155,8 @@ nav.menu i{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 90px;
+    height: 500px;
 }
 .services-item{
     width: 30%;
