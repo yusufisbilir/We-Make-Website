@@ -12,6 +12,9 @@ html{
 }
 h2{
     font-size: 30px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
 }
 h3{
     font-size: 24px;
@@ -36,12 +39,14 @@ header{
     color: #fff;
     text-align: center;
 }
-.header-text p{
+.header-text p,
+.meet-text p{
     font-size: 18px;
     font-weight: 500;
-    letter-spacing: 0.1em;
+    line-height: 36px;
 }
-.header-text p::after{
+.header-text p::after, 
+.meet-text h2::after{
     content: "";
     display: block;
     width: 30px;
@@ -66,14 +71,36 @@ nav.menu i{
     color: #fff;
     cursor: pointer;
 }
-.header-icon i{
+.header-icon i,
+.meet-icon i{
     font-size: 24px;
     border: 1px solid #c59a6d;
     padding: 4px 10px;
     transition:.3s all;
     cursor: pointer;
+    color: #c59a6d;
 }
-.header-icon i:hover{
+.header-icon i:hover,
+.meet-icon i:hover{
     background-color: #c59a6d;
+    color: #fff;
 }
 /* header end */
+
+/* meet us start */
+#meet{
+    padding: 90px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.meet{
+    text-align: center;
+    width: 50%;
+}
+.meet-text p{
+    margin: 0 auto;
+    margin-bottom: 50px;
+}
+
+/* meet us end */
