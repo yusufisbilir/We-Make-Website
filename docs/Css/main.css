@@ -11,6 +11,9 @@ html{
     font-size: 18px;
     overflow-x: hidden;
 }
+ul,li,ol{
+    list-style-type: none;
+}
 h2{
     font-size: 30px;
     font-weight: 600;
@@ -414,3 +417,53 @@ nav.menu i{
     width: 50px;
 }
 /* about end */
+
+
+/* latest tweets start */
+#latest-tw{
+    background: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),url("../images/tweet.jpg") no-repeat center;
+    padding: 90px 0;
+    background-attachment: fixed;
+    color: #fff;
+}
+.latest-tw{
+    width: 620px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.latest-tw p{
+    font-size: 18px;
+    line-height: 36px;
+    font-weight: 500;
+    letter-spacing: 0.05rem;
+    font-style: italic;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.latest-tw p span{
+    display: block;
+    font-size: 16px;
+    font-style: normal;
+    text-transform: uppercase;
+    margin-top: 50px;
+}
+.latest-tw-controls ul li{
+    text-indent: -9999px;
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid #c59a6d;
+    transition: .3s all;
+    cursor: pointer;
+    margin-right: 10px;
+}
+.latest-tw-controls ul li:last-child{
+    margin: 0;
+}
+.latest-tw-controls ul li:hover,
+.latest-tw-controls ul li.active{
+    background-color: #c59a6d;
+}
+/* latest tweets end */
