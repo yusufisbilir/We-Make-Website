@@ -145,7 +145,7 @@ nav.menu i{
     padding: 90px 0;
 }
 .services{
-    width: 1170px;
+    width: 75%;
     margin: 0 auto;
     display: flex;
     flex-direction: column;
@@ -334,7 +334,7 @@ nav.menu i{
     margin-bottom: 90px;
 }
 .about-items{
-    width: 1170px;
+    width: 60%;
     margin: 0 auto;
     margin-bottom: 90px;
     display: flex;
@@ -483,7 +483,7 @@ nav.menu i{
     color: #fff;
 }
 .contact-content{
-    width: 1170px;
+    width: 75%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
@@ -523,7 +523,7 @@ form{
     justify-content: space-between;
 }
 .contact-form input[type="text"]{
-    width: 360px;
+    width: 48%;
     height: 50px;
     background-color: #1e2429;
     padding: 0 20px;
@@ -567,31 +567,122 @@ form{
 /* footer */
 #footer{
     background-color: #282f35;
-    height: 200px;
     border-bottom: 3px solid #c59a6d;
 }
 .footer{
-    width: 1170px;
+    width: 75%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
+    padding: 80px 0;
 }
 .footer p{
     font-size: 14px;
     color: #fff;
     font-weight: 500;
-    line-height: 200px;
 }
 .footer p span{
     color: #c59a6d;
 }
 .footer a{
     color: #fff;
-    line-height: 200px;
     text-transform: uppercase;
     font-weight: 500;
 }
 .footer a i{
     color: #c59a6d;
     margin-left: 30px;
+}
+
+
+/* responsive */
+@media only screen and (max-width:768px) {
+    .header-text h1{
+        font-size: 30px;
+    }
+    .services{
+        width: 90%;
+    }
+    .services-items{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .services-item{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .partners-items{
+        width: 90%;
+    }
+
+    .about-items{
+        width: 90%;
+        flex-wrap: wrap;
+    }
+    .about-item{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+    .about-item-last{
+        width: 100%;
+    }
+
+    .latest-tw{
+        width: 50%;
+    }
+
+    .contact-content{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .contact-left{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .contact-right{
+        width: 100%;
+    }
+
+    .footer{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+    .footer p{
+        margin-bottom: 50px;
+    }
+}
+
+@media only screen and (max-width:567px) {
+    .latest-project-items{
+        flex-wrap: wrap;
+        align-items: center;
+        flex-direction: column;
+    }
+    .latest-project-item{
+        width: 75%;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (max-width:1170px) {
+    .services-items{
+        flex-wrap: wrap;
+        height: auto;
+    }
+    .services-item{
+        width: 100%;
+        margin-bottom: 30px;
+    }
+
+    .latest-project-items{
+        flex-wrap: wrap;
+    }
+    .latest-project-item{
+        width: 33%;
+    }
+
+    .about-items{
+        width: 90%;
+    }
 }
